@@ -1,0 +1,213 @@
+.home-container {
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+}
+
+.home-page-image-one-container {
+    width: 100vw;
+    height: 70vh;
+    background-image: url('../../components/background imageone for.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #f0f8ff, #e6f2ff);
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.welcome-section p {
+    font-size: 28px;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.homepage-second-section {
+    width: 100vw;
+    height: 100%;
+    background-color: #eaf6ff;
+    display: flex;
+}
+
+.homepage-para-parttwo {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.overview-heading {
+    font-size: 48px;
+    color: #007bff;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overview-heading:active {
+    animation: bubbleTouch 0.4s ease-in-out;
+}
+
+@keyframes bubbleTouch {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.overview-paragraph {
+    font-size: 28px;
+    line-height: 1.8;
+    padding-left: 10px;
+}
+
+.homepage-image-parttwo {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.homepage-parttwo-img {
+    height: 90%;
+    width: 90%;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-third-section {
+    width: 100vw;
+    height: 105%;
+    background-color: #e2f0e8;
+    display: flex;
+}
+
+.homepage-vision-text-part-third {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.vision-h1-text {
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    padding: 10px;
+}
+
+/* .infrastructure-section {
+    padding: 60px 20px;
+    background-color: #ffffffee;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+  } */
+/* .homepage-second-part{
+    height: 50vh;
+    width:100vw;
+    background-image: url('../../components/background-imagetwo-for.png');
+    background-size:100% 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+
+/* .infrastructure-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+  } */
+
+/* .carousel-main-cont{
+    width:100vw;
+    background-color: #eaf6ff;
+  }
+  .carousel-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-track {
+    display: flex;
+    animation: scroll 12s linear infinite;
+  }
+
+  .carousel-slide {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @keyframes scroll {
+    0%   { transform: translateX(0); }
+    33%  { transform: translateX(-100%); }
+    66%  { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+  } */
+@keyframes bubbleMotion {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    25% {
+        transform: translateY(-10px) scale(1.05);
+    }
+
+    50% {
+        transform: translateY(0) scale(1);
+    }
+
+    75% {
+        transform: translateY(10px) scale(1.05);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}

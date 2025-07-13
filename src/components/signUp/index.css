@@ -1,4 +1,4 @@
-body {
+.signup-bg{
   font-family: 'Segoe UI', sans-serif;
   background-image: url('../../components/background image for.png');
   background-size: cover;
@@ -6,8 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-}
+} 
 
 .signup-box {
   background-color: #fff;
